@@ -1,0 +1,16 @@
+# Secrets / credentials
+inventree-refurb/.env
+inventree-refurb/inventree-data/secret_key.txt
+inventree-refurb/inventree-data/oidc.pem
+
+# Live/generated runtime data
+inventree-refurb/inventree-data/pgdb/
+inventree-refurb/inventree-data/media/
+inventree-refurb/inventree-data/static/
+inventree-refurb/inventree-data/backup/
+inventree-refurb/inventree-data/redis/
+inventree-refurb/inventree-data/caddy/
+inventree-refurb/inventree-data/plugins/
+
+# Python venv
+inventree-refurb/.venv/

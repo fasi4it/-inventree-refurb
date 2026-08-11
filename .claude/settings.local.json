@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -fsSL -o docker-compose.yml https://raw.githubusercontent.com/inventree/InvenTree/master/docker/docker-compose.yml)",
+      "Bash(curl -fsSL -o .env https://raw.githubusercontent.com/inventree/InvenTree/master/docker/.env)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" https://raw.githubusercontent.com/inventree/InvenTree/master/docker/docker-compose.yml)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" https://raw.githubusercontent.com/inventree/InvenTree/master/docker/.env)",
+      "Bash(curl -s https://api.github.com/repos/inventree/InvenTree)",
+      "Bash(curl -s \"https://api.github.com/repos/inventree/InvenTree/contents/contrib/container\")",
+      "Bash(curl -s \"https://api.github.com/search/code?q=filename:docker-compose.yml+repo:inventree/InvenTree\")",
+      "Bash(curl -fsSL -o docker-compose.yml https://raw.githubusercontent.com/inventree/InvenTree/master/contrib/container/docker-compose.yml)",
+      "Bash(curl -fsSL -o .env https://raw.githubusercontent.com/inventree/InvenTree/master/contrib/container/.env)"
+    ]
+  }
+}
