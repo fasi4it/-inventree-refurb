@@ -1,0 +1,3 @@
+part_number,manufacturer,model_name,form_factor,ambiguous,verified_by,notes
+0930,DELL,OptiPlex 3070,,TRUE,workflow-spec.md §8.1,"Verified appearing as Tiny, SFF and Tower — form factor not determinable from part number alone."
+085A,DELL,OptiPlex 7060,,TRUE,workflow-spec.md §8.1,"Verified appearing as Tiny, SFF and Tower — form factor not determinable from part number alone."

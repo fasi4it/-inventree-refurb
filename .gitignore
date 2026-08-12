@@ -14,3 +14,8 @@ inventree-refurb/inventree-data/plugins/
 
 # Python venv
 inventree-refurb/.venv/
+
+# Python build artifacts
+__pycache__/
+*.pyc
+.pytest_cache/
