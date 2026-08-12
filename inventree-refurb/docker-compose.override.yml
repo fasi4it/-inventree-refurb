@@ -1,0 +1,14 @@
+# Local development overlay — merged automatically by `docker compose`.
+# Bind-mounts the git-tracked refurb-plugin/ source (../refurb-plugin, sibling to this
+# directory) onto InvenTree's plugin directory, so edits are visible without touching
+# docker-compose.yml (see CLAUDE.md: customization goes through overlays/.env, not the
+# base compose file).
+
+services:
+    inventree-server:
+        volumes:
+            - ../refurb-plugin:/home/inventree/data/plugins/refurb:z
+
+    inventree-worker:
+        volumes:
+            - ../refurb-plugin:/home/inventree/data/plugins/refurb:z
