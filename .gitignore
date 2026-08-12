@@ -1,0 +1,12 @@
+# Secrets / environment
+inventree-refurb/.env
+
+# Python virtual environment
+inventree-refurb/.venv/
+
+# InvenTree persistent data volume
+inventree-refurb/inventree-data/
+
+# Python cache
+__pycache__/
+*.pyc
